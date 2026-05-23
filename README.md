@@ -39,9 +39,9 @@ It consists of a series of 15 challenges (levels 00 to 14) where the goal is to 
 <a id="levels-overview"></a>
 ## 🕹️ Levels Overview
 
-Chaque dossier contient un `README.md` détaillant la procédure de résolution.
+Each directories contain a `README.md` who precise the resolution.
 
-| Niveau | Concept Clé | Outil / Technologie |
+| Level | Key Concept | Tool / Techno |
 | :--- | :--- | :--- |
 | **00 - 02** | Data Recovery | Affine Cipher, John the Ripper, Wireshark |
 | **03 - 05** | Env & Permissions | Path hijacking, Command injection, Crontab |
